@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, "Courier New", Courier, "Courier New", Courier,
     monospace;
 }
+
+.app_itemContainer {
+  overflow: auto;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}

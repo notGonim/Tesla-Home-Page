@@ -18,8 +18,6 @@ function App() {
     <div className="App">
       <Header />
       <div className="app_itemContainer">
-     
-       
         <Item
           title="Model S"
           desc="Starting at $69,420"
@@ -30,6 +28,7 @@ function App() {
           rightBtnText="LEARN MORE"
           rightBtnLink=""
           twoBtn='true'
+          first
         />
         <Item
           title="Model 3"
@@ -63,7 +62,6 @@ function App() {
           rightBtnText="LEARN MORE"
           rightBtnLink=""
           twoBtn='true'
-
         />
         <Item
           title="Solar for New Roofs"
@@ -76,7 +74,6 @@ function App() {
           rightBtnLink=""
           twoBtn='true'
         />
-
         <Item
           title="Accessories"
           desc="Money-back guarantee"
